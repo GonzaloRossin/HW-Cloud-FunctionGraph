@@ -32,7 +32,7 @@ def handler(event, context):
         .with_region(RdsRegion.value_of(region)) \
         .build()
 
-    instance_id = context.getUserData('id_instancia', '').strip()
+    instance_id = context.getUserData('instanceId', '').strip()
 
     try:
         request = StartupInstanceRequest(instance_id=instance_id)
