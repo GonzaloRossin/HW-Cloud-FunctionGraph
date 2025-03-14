@@ -56,6 +56,11 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
        - `ak`: "INGRESAR EL AK DE LA CUENTA AQUÍ"
        - `sk`: "INGRESAR EL SK DE LA CUENTA AQUÍ"
        - `projectId`: "INGRESAR EL PROJECT ID DE LA REGIÓN UTILIZADA"
+     - Para detener múltiples RDS:
+       - `region`: la-south-2
+       - `ak`: "INGRESAR EL AK DE LA CUENTA AQUÍ"
+       - `sk`: "INGRESAR EL SK DE LA CUENTA AQUÍ"
+       - `projectId`: "INGRESAR EL PROJECT ID DE LA REGIÓN UTILIZADA"
 
    Para el caso de detener el RDS en lote, los IDs de las instancias se especifican dentro del código.
 
