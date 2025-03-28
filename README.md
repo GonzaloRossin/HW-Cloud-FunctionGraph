@@ -61,6 +61,13 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
        - `ak`: "INGRESAR EL AK DE LA CUENTA AQUÍ"
        - `sk`: "INGRESAR EL SK DE LA CUENTA AQUÍ"
        - `projectId`: "INGRESAR EL PROJECT ID DE LA REGIÓN UTILIZADA"
+     - Para escalar RDS:
+       - `region`: la-south-2
+       - `ak`: "INGRESAR EL AK DE LA CUENTA AQUÍ"
+       - `sk`: "INGRESAR EL SK DE LA CUENTA AQUÍ"
+       - `projectId`: "INGRESAR EL PROJECT ID DE LA REGIÓN UTILIZADA"
+       - `instanceId`: "INGRESAR LA ID DE LA INSTANCIA A INICIAR"
+       - `flavor`: "INGRESAR EL FLAVOR CODE A ESCALAR"
 
    Para el caso de detener el RDS en lote, los IDs de las instancias se especifican dentro del código.
 
